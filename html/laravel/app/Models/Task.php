@@ -32,6 +32,7 @@ class Task extends Model
         'task_resolution_id',
     ];
 
+
     /**
      * ソート対象となる項目.
      *
