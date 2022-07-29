@@ -21,6 +21,7 @@ class Task extends Model
     protected $fillable = [
         'project_id',
         'name',
+        'detail',
         'task_kind_id',
         'task_status_id',
         'created_user_id',
@@ -30,6 +31,7 @@ class Task extends Model
         'due_date',
         'task_resolution_id',
     ];
+
 
     /**
      * ソート対象となる項目.
